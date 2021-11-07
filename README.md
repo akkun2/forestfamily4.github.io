@@ -56,6 +56,7 @@ discordサーバー入ってね
 
 * <a href="https://docs.google.com/document/d/1k682-1xNnHH3Z4sq6MhB4s7TgtyPqMKZUFwydsXcOiw/edit?usp=sharing">Battle Cats Ultimate Tutorial</a>
 
+* <a href="https://github.com/battlecatsultimate/BCU-java-PC/blob/slow_kotlin/README.md">公式README</a>
 ### よくあるエラー
 
 * [null in AWT-EventQueue-0](#26)
