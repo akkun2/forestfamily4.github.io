@@ -129,7 +129,7 @@ jarファイルが開き、assetのダウンロードが始まるはずです。
 ### インストールできなかった人(Windows)
 
 これでやってください....<br>
-[https://forestfamily4.github.io/bat/install.bat](https://forestfamily4.github.io/bat/install.bat)
+[ダウンロード](https://github.com/forestfamily4/forestfamily4.github.io/blob/main/bat.zip?raw=true
 
 
 
