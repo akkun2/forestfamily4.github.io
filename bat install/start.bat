@@ -1,6 +1,5 @@
-set Path=%Path%;%CD%\jdk-17\bin
-
 @echo off
+set Path=%Path%;%CD%\jdk\bin
 
 rem -------------------------------------------------
 rem jarファイルを起動する     参考　http://tamori.3zoku.com/misc/java/java_run.html
