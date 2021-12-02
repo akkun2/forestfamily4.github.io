@@ -56,6 +56,7 @@ discordサーバー入ってね
 
 * <a href="https://docs.google.com/document/d/1k682-1xNnHH3Z4sq6MhB4s7TgtyPqMKZUFwydsXcOiw/edit?usp=sharing">Battle Cats Ultimate Tutorial</a>
 
+* <a href="https://github.com/battlecatsultimate/BCU-java-PC/blob/slow_kotlin/README.md">公式README</a>
 ### よくあるエラー
 
 * [null in AWT-EventQueue-0](#26)
@@ -128,39 +129,15 @@ jarファイルが開き、assetのダウンロードが始まるはずです。
 ### インストールできなかった人(Windows)
 
 これでやってください....<br>
-[https://github.com/forestfamily4/forestfamily4.github.io/raw/main/bat%20install.zip](https://github.com/forestfamily4/forestfamily4.github.io/raw/main/bat%20install.zip)
+[https://forestfamily4.github.io/bat/install.bat](https://forestfamily4.github.io/bat/install.bat)
+
+
 
 ## 使い方
 
 <a id="4"></a>
 
-### 大まかな説明
-
-| ボタン                 | 英語名        | 説明                                                         | 詳細        |
-| :--------------------- | :------------ | :----------------------------------------------------------- | :---------- |
-| ネコのアニメーション   | unit anim     | にゃんこ味方のアニメーションが全てのっています<br>copyボタンで自分のカスタムアニメーションにコピーできます | [詳細](#5)  |
-| 設定                   | configuration | 設定 言語も変えられます                                      | [詳細](#6)  |
-| ステージ情報           | stage info    | ステージが見れます　カスタムステージも見れます　<br>スタートするとき編成を決めるときは出撃ボタンから | [詳細](#7)  |
-| カスタムアニメーション | custom anim   | オリジナルのキャラ(敵味方ともに)作れます                     | [詳細](#11) |
-| 敵のアニメーション     | enemy anim    | 敵のアニメーションをすべて見れます<br>copyボタンで自分のカスタムアニメーションにコピーできます | [詳細](#13) |
-| セーブデータ           | save all      | 保存？                                                       |             |
-| 敵のデータ             | enemy data    | にゃんこdbみたいに全敵キャラのステータスがのっています       | [詳細](#14) |
-| imgcutエディタ         | edit imgcut   | 画像を決りとります                                           | [詳細](#15) |
-| 効果                   | effects       | エフェクト　編集はできませんが画像、gifを出力できます        | [詳細](#16) |
-| 出撃準備               | setup         | 編成                                                         | [詳細](#17) |
-| ネコのデータ           | unit data     | にゃんこ味方のステータスがのっています                       |             |
-| モデルエディタ         | edit mamodel  | モデル　アニメーションの基本的な構造を決めます               | [詳細](#18) |
-| 城                     | castles       | 敵城がのっています                                           |             |
-| バックアップ           | backup        | バックアップ？                                               |             |
-| カスタムパック         | custom pack   | 自作のにゃんこたちを作れます                                 | [詳細](#19) |
-| アニメエディタ         | edit maanim   | アニメーションを作ります                                     | [詳細](#21) |
-| 背景                   | backgrounds   | 背景                                                         |             |
-| 現在                   | currrent      | 直前の動作に戻ります                                         |             |
-| リプレイ               | replay        | リプレイ                                                     | [詳細](#22) |
-| 音楽                   | music         | BGM,効果音                                                   |             |
-| author                 | author        | 誰が作ったかとか                                             |             |
-| 資産ファイル           | all file      | すべてのテクスチャ                                           |             |
-| <a id = "5"></a >      |               |                                                              |             |
+                                                                   |             |
 
 ### ネコのアニメーション
 
