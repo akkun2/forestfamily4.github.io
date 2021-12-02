@@ -8,11 +8,11 @@ echo *******************************************
 @PAUSE
 bitsadmin /transfer download https://github.com/battlecatsultimate/bcu-assets/blob/master/jar/BCU-Initializer.jar?raw=true "%CD%\BCU-Initializer.jar"
 bitsadmin /transfer download https://github.com/ojdkbuild/ojdkbuild/releases/download/java-1.8.0-openjdk-1.8.0.222-2.b10/java-1.8.0-openjdk-jre-1.8.0.222-2.b10.ojdkbuild.windows.x86_64.zip "%CD%\java.zip"
-bitsadmin /transfer download https://raw.githubusercontent.com/forestfamily4/forestfamily4.github.io/main/bat%20install/start.bat "%CD%\start.bat"
-powershell -NoProfile -ExecutionPolicy Unrestricted -Command "& { Expand-Archive -Path '%CD%\java.zip' }"
+7za.exe x "%CD%\java.zip"
 ren java-1.8.0-openjdk-jre-1.8.0.222-2.b10.ojdkbuild.windows.x86_64 jdk
 set Path=%Path%;"%CD%\jdk\bin"
 del "%CD%\java.zip"
+del "%CD%\7za.exe"
 java -jar "%CD%\BCU-Initializer.jar"
 echo インストールが終わりました。開くときはstart.batを使ってください。
 @PAUSE
