@@ -21,7 +21,7 @@ discordサーバー入ってね
 * [2,BCUのダウンロード](#2)
 * [できなかった人](#3)
 
-### [使い方](#4)
+### 使い方
 
 * [大まかな説明](#4)
 * [ネコのアニメーション](#5)
@@ -70,10 +70,10 @@ discordサーバー入ってね
 
 ### 1. javaのインストール
 
-最新バージョンのjava(うまく行かないときはJDK)をダウンロードします。
-[https://java.com/ja/download/help/download_options_ja.html](https://java.com/ja/download/help/download_options_ja.html)
+最新バージョンのjava8(うまく行かないときはJDK8)をダウンロードします。
+[https://www.oracle.com/java/technologies/downloads/](https://www.oracle.com/java/technologies/downloads/)
 
-JDK [https://www.oracle.com/java/technologies/javase-jdk16-downloads.html](https://www.oracle.com/java/technologies/javase-jdk16-downloads.html)
+openJDK [https://github.com/ojdkbuild/ojdkbuild/releases/tag/java-1.8.0-openjdk-1.8.0.222-2.b10](https://github.com/ojdkbuild/ojdkbuild/releases/tag/java-1.8.0-openjdk-1.8.0.222-2.b10)
 
 JDKの場合はPATH環境変数を通す必要があります。<br><br>
 Windowsの場合
@@ -129,15 +129,7 @@ jarファイルが開き、assetのダウンロードが始まるはずです。
 ### インストールできなかった人(Windows)
 
 これでやってください....<br>
-[https://forestfamily4.github.io/bat/install.bat](https://forestfamily4.github.io/bat/install.bat)
-
-
-
-## 使い方
-
-<a id="4"></a>
-
-                                                                   |             |
+[かんたんインストーラのダウンロード](https://github.com/forestfamily4/forestfamily4.github.io/blob/main/bat.zip?raw=true)
 
 ### ネコのアニメーション
 

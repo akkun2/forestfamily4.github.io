@@ -1,10 +1,20 @@
+echo off
 chcp 65001
-bitsadmin /transfer "download" https://github.com/battlecatsultimate/bcu-assets/blob/master/jar/BCU-Initializer.jar?raw=true %CD%\BCU-Initializer.jar
-bitsadmin /transfer "download" https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.zip %CD%\java.zip
-bitsadmin /transfer "download" https://raw.githubusercontent.com/forestfamily4/forestfamily4.github.io/main/bat%20install/start.bat %CD%\start.bat
-powershell -NoProfile -ExecutionPolicy Unrestricted -Command "& { Expand-Archive -Path '%CD%\java.zip' }"
-set Path=%Path%;%CD%\java\jdk-17\bin
-del java.zip
-java -jar %CD%\BCU-Initializer.jar
-https://raw.githubusercontent.com/forestfamily4/forestfamily4.github.io/main/bat%20install/start.bat %CD%\start.zip
+echo BCUかんたんインストーラ
+echo 放置していると白い画面がでてきてダイアログがでるのでOKを押していき、消えたらこのコマンド画面をEnterしてください。
+echo *******************************************
+echo これはjavaがわからない人用です。わかるのなら自分で起動してください。
+echo *******************************************
+@PAUSE
+bitsadmin /transfer download https://github.com/battlecatsultimate/bcu-assets/blob/master/jar/BCU-Initializer.jar?raw=true "%CD%\BCU-Initializer.jar"
+bitsadmin /transfer download https://github.com/ojdkbuild/ojdkbuild/releases/download/java-1.8.0-openjdk-1.8.0.222-2.b10/java-1.8.0-openjdk-jre-1.8.0.222-2.b10.ojdkbuild.windows.x86_64.zip "%CD%\java.zip"
+7za.exe x "%CD%\java.zip"
+powershell -NoProfile -ExcutionPolicy Unrestricted -Command "& { Expand-Archive -Path '%CD%\java.zip' }"  
+ren java-1.8.0-openjdk-jre-1.8.0.222-2.b10.ojdkbuild.windows.x86_64 jdk
+set Path=%Path%;"%CD%\jdk\bin"
+del "%CD%\java.zip"
+java -jar "%CD%\BCU-Initializer.jar"
+echo インストールが終わりました。開くときはstart.batを使ってください。
+@PAUSE
+del "%CD%\BCU-Initializer.jar"
 del "%~f0"
